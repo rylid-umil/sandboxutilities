@@ -1,0 +1,13 @@
+{
+  "name": "Infibattery",
+  "type": "Battery",
+  "description": "Stores power in times of surplus energy. Outputs power in times of deficit. Huge power capacity. Sandbox only. ",
+  "size": 1,
+  "health": 50,
+  "buildVisibility": "sandboxOnly",
+  "category": "power",
+  "consumes": {
+    "powerBuffered": 1000000
+  },
+  "baseExplosiveness": 0.01
+}
