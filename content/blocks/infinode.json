@@ -1,0 +1,11 @@
+{
+  "name": "Infinode",
+  "description": "Transmits power to connected blocks. The node will recieve power or supply power to any adjacent blocks. Huge range and many connections.",
+  "size": 1,
+  "health": 50,
+  "autoConnect": false,
+  "maxNodes": 100,
+  "laserRange": 100,
+  "conductivePower": true,
+  "buildVisibility": "sandboxOnly"
+}
