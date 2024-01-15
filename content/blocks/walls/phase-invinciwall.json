@@ -6,6 +6,6 @@
   "health": 2147483646,
   "category": "defense",
   "buildVisibility": "sandboxOnly",
-  "chanceDeflect": 1,
+  "chanceDeflect": 100,
   "deflectSound": "bounce"
 }
