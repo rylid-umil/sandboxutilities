@@ -1,7 +1,7 @@
 {
   "type": "wall",
   "name": "Plastanium Invincible Wall",
-  "description": "Blocks structures from enemy projectiles. Infinite health. Absorbs lasers. Blocks automatic power connections. Sandbox only.",
+  "description": "Blocks structures from enemy projectiles. Infinite health. Absorbs lasers and electric arcs. Blocks automatic power connections. Sandbox only.",
   "size": 1,
   "health": 2147483646,
   "category": "defense",
