@@ -9,5 +9,9 @@
   "consumes": {
     "powerBuffered": 1000000
   },
-  "baseExplosiveness": 0.01
+  "baseExplosiveness": 0.01,
+  "hasPower": true,
+  "outputsPower": true,
+  "consumesPower": true,
+  "canOverdrive": false
 }
