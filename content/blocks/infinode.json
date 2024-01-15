@@ -7,7 +7,6 @@
   "autoConnect": false,
   "maxNodes": 100,
   "laserRange": 100,
-  "conductivePower": true,
   "buildVisibility": "sandboxOnly",
   "category": "power"
 }
