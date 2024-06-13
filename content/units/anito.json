@@ -12,7 +12,7 @@
   "rotateSpeed": 20.3,
   "accel": 0.3,
   "mineSpeed": 29,
-  "hitSize": 3,
+  "hitSize": 4,
   "mineTier": 30,
   "lowAltitude": false,
   "armor": 29372.9,
