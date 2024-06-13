@@ -33,7 +33,7 @@
         "lifetime": 180,
         "width": 5,
         "height": 4,
-        "trailWidth": 2.5,
+        "trailWidth": 1.2,
         "trailLength": 30,
         "trailColor": "F8D303FF",
         "pierce": true,
