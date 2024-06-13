@@ -16,7 +16,7 @@
   "mineTier": 30,
   "lowAltitude": false,
   "armor": 29372.9,
-  "engineOffset": 3,
+  "engineOffset": 2,
   "itemCapacity": 293120,
   "mineWalls": true,
   "envDisabled": 0,
