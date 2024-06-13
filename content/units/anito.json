@@ -7,7 +7,7 @@
   "drag": 0.03,
   "buildSpeed": 100,
   "flying": true,
-  "health": 390000,
+  "health": 2147483647,
   "isEnemy": false,
   "rotateSpeed": 20.3,
   "accel": 0.3,
