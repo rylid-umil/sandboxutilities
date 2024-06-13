@@ -1,9 +1,9 @@
 {
   "localizedName": "Anito",
-  "description": "Builds structures. Extremely durable. Extremely fast. Sandbox only.",
+  "description": "Builds structures. Extremely durable. Exceptionally fast. Sandbox only.",
   "details": "yee",
   "speed": 7.15,
-  "accel": 0.02,
+  "accel": 0.002,
   "drag": 0.03,
   "buildSpeed": 100,
   "flying": true,
@@ -12,17 +12,15 @@
   "rotateSpeed": 20.3,
   "accel": 0.3,
   "mineSpeed": 29,
-  "hitSize": 4,
+  "hitSize": 7,
   "mineTier": 30,
   "lowAltitude": false,
   "armor": 29372.9,
   "engineOffset": 3,
   "itemCapacity": 293120,
-  "targetable": false,
-  "hittable": false,
-  "targetPriority": -2,
   "mineWalls": true,
   "envDisabled": 0,
   "mineHardnessScaling": false,
-  "engineSize": 4.2
+  "engineSize": 2,
+  "engineOffset": 3
 }
