@@ -1,7 +1,8 @@
 {
   "localizedName": "Anito",
   "description": "Builds structures. Extremely durable. Exceptionally fast. Sandbox only.",
-  "details": "yee",
+  "details": "An All-around unit. Likes pancakes for some reason.",
+  "hideDetails": false,
   "speed": 7.15,
   "accel": 0.07,
   "drag": 0.03,
