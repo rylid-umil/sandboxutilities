@@ -1,9 +1,10 @@
 {
-  "localizedName": "Omega",
-  "description": "Builds structures. Extremely durable. Sandbox only.",
+  "localizedName": "Anito",
+  "description": "Builds structures. Extremely durable. Extremely fast. Sandbox only.",
   "details": "yee",
   "speed": 7.15,
-  "drag": 0.2,
+  "accel": 0.02,
+  "drag": 0.03,
   "buildSpeed": 100,
   "flying": true,
   "health": 390000,
