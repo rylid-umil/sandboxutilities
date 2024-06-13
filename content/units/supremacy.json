@@ -1,7 +1,7 @@
 {
   "localizedName": "Supremacy",
   "description": "Builds structures. Exceptionally durable. Shoots a barrage of glorified bullets.",
-  "details": "They fear him. For obvious reasons, because he absolutely DESTROYS whatever he fights. I think. He's not unbeatable though. LOL.",
+  "details": "They fear him. For obvious reasons, because he absolutely DESTROYS whatever he fights. I think. He's not unbeatable though. LOL. \nHe has an affinity for gold, somehow.",
   "speed": 3.5,
   "accel": 0.04,
   "drag": 0.03,
@@ -12,7 +12,7 @@
   "hitSize": 14,
   "lowAltitude": true,
   "armor": 50,
-  "engineOffset": 6,
+  "engineOffset": 7,
   "itemCapacity": 65536,
   "envDisabled": 0,
   "engineSize": 4,
@@ -21,8 +21,10 @@
       "name": "supremacy-gunner",
       "x": 4,
       "y": 0,
-      "alternate": false,
+      "alternate": true,
       "mirror": true,
+      "rotate": true,
+      "rotateSpeed": 2,
       "reload": 120,
       "shootSound": "mystical",
       "bullet": {
@@ -37,8 +39,14 @@
         "pierce": true,
         "pierceBuilding": true,
         "pierceCap": 15,
-        "splashDamageRadius": 12,
+        "splashDamageRadius": 20,
         "splashDamage": 2680,
+        "lightning": 5,
+        "lightningLength": 11,
+        "lightningLengthRand": 3,
+        "lightningColor": "F8D343FF",
+        "homingRadius": 256,
+        "homingPower": 0.02,
         "hitEffect": {
           "type": "MultiEffect",
           "effects": [
@@ -50,20 +58,23 @@
               "colorFrom": "F8D343FF",
               "colorTo": "F8D303FF",
               "interp": "circleOut",
-              "sizeInterp": "circleIn"
-              "particles": 8
+              "sizeInterp": "circleIn",
+              "particles": 8,
+              "length": 29
             },
             {
               "type": "waveEffect",
               "colorFrom": "F8D343FF",
               "colorTo": "F8D303FF",
               "sizeFrom": 0,
-              "sizeTo": 15,
+              "sizeTo": 27,
               "lifetime": 60,
               "interp": "circleOut"
             }
           ]
-        }
+        },
+        "despawnEffect": "none",
+        "despawnHit": true
       }
     }
   ]
