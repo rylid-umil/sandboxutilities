@@ -1,7 +1,7 @@
 {
   "type": "UnitFactory",
   "name": "Omega Factory",
-  "description": "Produces omegae-based units. Sandbox only.",
+  "description": "Produces powerful omega-based units. Sandbox only.",
   "consumes": {
     "power": 2
   },
@@ -13,6 +13,13 @@
       "time": 300,
       "requirements": [
         "surge-alloy/1"
+      ]
+    },
+    {
+      "unit": "overlord",
+      "time": 360,
+      "requirements": [
+        "surge-alloy/4"
       ]
     }
   ],
