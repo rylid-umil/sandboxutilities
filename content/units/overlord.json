@@ -2,6 +2,7 @@
   "localizedName": "Overlord",
   "description": "Builds structures. Exceptionally durable. Obliterates anything directly in front of it with a glorified laser.",
   "details": "[gold]\"It's called personal space, bro. [scarlet]that's why I killed [purple]him[].[]\"[] - probably [gold]him[].",
+  "hideDetails": false,
   "speed": 5.7,
   "accel": 0.06,
   "drag": 0.05,
@@ -23,14 +24,14 @@
       "y": 4,
       "mirror": false,
       "alternate": false,
-      "reload": 30,
+      "reload": 20,
       "shootSound": "tinylaser",
       "smokeEffect": "none",
       "ejectEffect": "none",
       "shootEffect": {
         "type": "MultiEffect",
         "effects": [
-          "instShoot",
+          "instBomb",
           {
             "type": "ParticleEffect",
             "length": 0,
@@ -57,15 +58,24 @@
         "damage": 8192,
         "pierce": true,
         "pierceBuildings": true,
-        "length": 45,
+        "length": 70,
         "status": "unmoving",
         "statusDuration": 60,
         "hitEffect": {
           "type": "MultiEffect",
           "effects": [
-            "instHit",
-            "instShoot",
-            "instBomb"
+            "instTrail",
+            {
+              "type": "ParticleEffect",
+              "length": 0,
+              "lifetime": 10,
+              "particles": 1,
+              "colorFrom": "FBD367FF",
+              "colorTo": "FBD36700",
+              "sizeFrom": 1,
+              "sizeTo": 6,
+              "interp": "circleOut"
+            }
           ]
         },
         "despawnEffect": "none",
