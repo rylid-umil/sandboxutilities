@@ -1,0 +1,76 @@
+{
+  "localizedName": "Overlord",
+  "description": "Builds structures. Exceptionally durable. Obliterates anything directly in front of it with a glorified laser.",
+  "details": "[gold]\"It's called personal space, bro. [scarlet]that's why I killed [purple]him[].[]\"[] - probably [gold]him[].",
+  "speed": 5.7,
+  "accel": 0.06,
+  "drag": 0.05,
+  "buildSpeed": 100,
+  "flying": true,
+  "health": 268435456,
+  "rotateSpeed": 6,
+  "hitSize": 10,
+  "lowAltitude": true,
+  "armor": 30,
+  "engineOffset": 4,
+  "itemCapacity": 32768,
+  "envDisabled": 0,
+  "engineSize": 4,
+  "weapons": [
+    {
+      "name": "overlord-weapon",
+      "x": 0,
+      "y": 4,
+      "mirror": false,
+      "alternate": false,
+      "reload": 30,
+      "shootSound": "tinylaser",
+      "smokeEffect": "none",
+      "ejectEffect": "none",
+      "shootEffect": {
+        "type": "MultiEffect",
+        "effects": [
+          "instShoot",
+          {
+            "type": "ParticleEffect",
+            "length": 0,
+            "lifetime": 10,
+            "particles": 1,
+            "colorFrom": "FBD367FF",
+            "colorTo": "FBD36700",
+            "sizeFrom": 3,
+            "sizeTo": 13,
+            "interp": "circleOut"
+          }
+        ]
+      },
+      "rotates": false,
+      "bullet": {
+        "type": "LaserBulletType",
+        "colors": [
+          "FBD367FF",
+          "FED671FF",
+          "FFFFFFFF"
+        ],
+        "speed": 0,
+        "lifetime": 10,
+        "damage": 8192,
+        "pierce": true,
+        "pierceBuildings": true,
+        "length": 45,
+        "status": "unmoving",
+        "statusDuration": 60,
+        "hitEffect": {
+          "type": "MultiEffect",
+          "effects": [
+            "instHit",
+            "instShoot",
+            "instBomb"
+          ]
+        },
+        "despawnEffect": "none",
+        "despawnHit": true
+      }
+    }
+  ]
+}
