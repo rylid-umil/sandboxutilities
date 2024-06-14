@@ -13,7 +13,6 @@
   "hitSize": 10,
   "lowAltitude": true,
   "armor": 30,
-  "engineOffset": 4,
   "itemCapacity": 32768,
   "envDisabled": 0,
   "engineSize": 4,
@@ -26,24 +25,18 @@
       "alternate": false,
       "reload": 20,
       "shootSound": "tinylaser",
-      "smokeEffect": "none",
-      "ejectEffect": "none",
+      "smokeEffect": "shootSmokeDisperse",
+      "ejectEffect": "casing2Double",
       "shootEffect": {
-        "type": "MultiEffect",
-        "effects": [
-          "instBomb",
-          {
-            "type": "ParticleEffect",
-            "length": 0,
-            "lifetime": 10,
-            "particles": 1,
-            "colorFrom": "FBD367FF",
-            "colorTo": "FBD36700",
-            "sizeFrom": 3,
-            "sizeTo": 13,
-            "interp": "circleOut"
-          }
-        ]
+        "type": "ParticleEffect",
+        "length": 0,
+        "lifetime": 10,
+        "particles": 1,
+        "colorFrom": "FBD367FF",
+        "colorTo": "FBD36700",
+        "sizeFrom": 3,
+        "sizeTo": 10,
+        "interp": "circleOut"
       },
       "rotates": false,
       "bullet": {
@@ -58,7 +51,7 @@
         "damage": 8192,
         "pierce": true,
         "pierceBuildings": true,
-        "length": 70,
+        "length": 45,
         "status": "unmoving",
         "statusDuration": 60,
         "hitEffect": {
@@ -73,13 +66,13 @@
               "colorFrom": "FBD367FF",
               "colorTo": "FBD36700",
               "sizeFrom": 1,
-              "sizeTo": 6,
+              "sizeTo": 13,
               "interp": "circleOut"
             }
           ]
         },
         "despawnEffect": "none",
-        "despawnHit": true
+        "despawnHit": false
       }
     }
   ]
